@@ -1,0 +1,30 @@
+[
+  {
+    "Ime": "FS-Deluxe",
+    "Opis": "Suite",
+    "BrojSoba": 2,
+    "MaxBrojGostiju": 3,
+    "HotelSifra": "H1"
+  },
+  {
+    "Ime": "FS-Family",
+    "Opis": "Family",
+    "BrojSoba": 3,
+    "MaxBrojGostiju": 5,
+    "HotelSifra": "H1"
+  },
+  {
+    "Ime": "SB-Std",
+    "Opis": "Std",
+    "BrojSoba": 1,
+    "MaxBrojGostiju": 2,
+    "HotelSifra": "H2"
+  },
+  {
+    "Ime": "MI-Loft",
+    "Opis": "Loft",
+    "BrojSoba": 2,
+    "MaxBrojGostiju": 4,
+    "HotelSifra": "H3"
+  }
+]

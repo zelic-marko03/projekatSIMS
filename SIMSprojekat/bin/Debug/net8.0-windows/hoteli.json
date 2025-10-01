@@ -1,0 +1,47 @@
+[
+  {
+    "Sifra": "H1",
+    "Ime": "Four Seasons",
+    "GodinaIzgradnje": 1998,
+    "BrojZvezdica": 5,
+    "VlasnikJMBG": "111",
+    "Status": 0,
+    "RazlogOdbijanja": null
+  },
+  {
+    "Sifra": "H2",
+    "Ime": "Sea Breeze",
+    "GodinaIzgradnje": 2005,
+    "BrojZvezdica": 4,
+    "VlasnikJMBG": "222",
+    "Status": 0,
+    "RazlogOdbijanja": null
+  },
+  {
+    "Sifra": "H3",
+    "Ime": "Mountain Inn",
+    "GodinaIzgradnje": 2015,
+    "BrojZvezdica": 3,
+    "VlasnikJMBG": "333",
+    "Status": 0,
+    "RazlogOdbijanja": null
+  },
+  {
+    "Sifra": "1",
+    "Ime": "hilton",
+    "GodinaIzgradnje": 2020,
+    "BrojZvezdica": 5,
+    "VlasnikJMBG": "1234123412341",
+    "Status": 1,
+    "RazlogOdbijanja": null
+  },
+  {
+    "Sifra": "2",
+    "Ime": "central",
+    "GodinaIzgradnje": 2009,
+    "BrojZvezdica": 2,
+    "VlasnikJMBG": "1234123412341",
+    "Status": 2,
+    "RazlogOdbijanja": "ne ispunjava kriterijume"
+  }
+]

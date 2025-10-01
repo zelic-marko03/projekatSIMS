@@ -1,0 +1,538 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Korisnik\\source\\repos\\SIMSprojekat\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{19AFAF1B-A105-4DCC-91E5-60F6CCC77355}|SIMSprojekat\\SIMSprojekat.csproj|c:\\users\\korisnik\\source\\repos\\simsprojekat\\simsprojekat\\guestwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{19AFAF1B-A105-4DCC-91E5-60F6CCC77355}|SIMSprojekat\\SIMSprojekat.csproj|solutionrelative:simsprojekat\\guestwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19AFAF1B-A105-4DCC-91E5-60F6CCC77355}|SIMSprojekat\\SIMSprojekat.csproj|c:\\users\\korisnik\\source\\repos\\simsprojekat\\simsprojekat\\services\\autoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19AFAF1B-A105-4DCC-91E5-60F6CCC77355}|SIMSprojekat\\SIMSprojekat.csproj|solutionrelative:simsprojekat\\services\\autoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19AFAF1B-A105-4DCC-91E5-60F6CCC77355}|SIMSprojekat\\SIMSprojekat.csproj|c:\\users\\korisnik\\source\\repos\\simsprojekat\\simsprojekat\\guestwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19AFAF1B-A105-4DCC-91E5-60F6CCC77355}|SIMSprojekat\\SIMSprojekat.csproj|solutionrelative:simsprojekat\\guestwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19AFAF1B-A105-4DCC-91E5-60F6CCC77355}|SIMSprojekat\\SIMSprojekat.csproj|c:\\users\\korisnik\\source\\repos\\simsprojekat\\simsprojekat\\services\\rezervacijaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19AFAF1B-A105-4DCC-91E5-60F6CCC77355}|SIMSprojekat\\SIMSprojekat.csproj|solutionrelative:simsprojekat\\services\\rezervacijaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19AFAF1B-A105-4DCC-91E5-60F6CCC77355}|SIMSprojekat\\SIMSprojekat.csproj|c:\\users\\korisnik\\source\\repos\\simsprojekat\\simsprojekat\\rezervacijawindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19AFAF1B-A105-4DCC-91E5-60F6CCC77355}|SIMSprojekat\\SIMSprojekat.csproj|solutionrelative:simsprojekat\\rezervacijawindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19AFAF1B-A105-4DCC-91E5-60F6CCC77355}|SIMSprojekat\\SIMSprojekat.csproj|c:\\users\\korisnik\\source\\repos\\simsprojekat\\simsprojekat\\models\\korisnik.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19AFAF1B-A105-4DCC-91E5-60F6CCC77355}|SIMSprojekat\\SIMSprojekat.csproj|solutionrelative:simsprojekat\\models\\korisnik.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19AFAF1B-A105-4DCC-91E5-60F6CCC77355}|SIMSprojekat\\SIMSprojekat.csproj|c:\\users\\korisnik\\source\\repos\\simsprojekat\\simsprojekat\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19AFAF1B-A105-4DCC-91E5-60F6CCC77355}|SIMSprojekat\\SIMSprojekat.csproj|solutionrelative:simsprojekat\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19AFAF1B-A105-4DCC-91E5-60F6CCC77355}|SIMSprojekat\\SIMSprojekat.csproj|c:\\users\\korisnik\\source\\repos\\simsprojekat\\simsprojekat\\registerwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{19AFAF1B-A105-4DCC-91E5-60F6CCC77355}|SIMSprojekat\\SIMSprojekat.csproj|solutionrelative:simsprojekat\\registerwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19AFAF1B-A105-4DCC-91E5-60F6CCC77355}|SIMSprojekat\\SIMSprojekat.csproj|c:\\users\\korisnik\\source\\repos\\simsprojekat\\simsprojekat\\registerwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19AFAF1B-A105-4DCC-91E5-60F6CCC77355}|SIMSprojekat\\SIMSprojekat.csproj|solutionrelative:simsprojekat\\registerwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19AFAF1B-A105-4DCC-91E5-60F6CCC77355}|SIMSprojekat\\SIMSprojekat.csproj|c:\\users\\korisnik\\source\\repos\\simsprojekat\\simsprojekat\\services\\hotelservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19AFAF1B-A105-4DCC-91E5-60F6CCC77355}|SIMSprojekat\\SIMSprojekat.csproj|solutionrelative:simsprojekat\\services\\hotelservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19AFAF1B-A105-4DCC-91E5-60F6CCC77355}|SIMSprojekat\\SIMSprojekat.csproj|c:\\users\\korisnik\\source\\repos\\simsprojekat\\simsprojekat\\services\\ownerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19AFAF1B-A105-4DCC-91E5-60F6CCC77355}|SIMSprojekat\\SIMSprojekat.csproj|solutionrelative:simsprojekat\\services\\ownerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19AFAF1B-A105-4DCC-91E5-60F6CCC77355}|SIMSprojekat\\SIMSprojekat.csproj|c:\\users\\korisnik\\source\\repos\\simsprojekat\\simsprojekat\\ownerwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19AFAF1B-A105-4DCC-91E5-60F6CCC77355}|SIMSprojekat\\SIMSprojekat.csproj|solutionrelative:simsprojekat\\ownerwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19AFAF1B-A105-4DCC-91E5-60F6CCC77355}|SIMSprojekat\\SIMSprojekat.csproj|c:\\users\\korisnik\\source\\repos\\simsprojekat\\simsprojekat\\services\\adminservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19AFAF1B-A105-4DCC-91E5-60F6CCC77355}|SIMSprojekat\\SIMSprojekat.csproj|solutionrelative:simsprojekat\\services\\adminservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19AFAF1B-A105-4DCC-91E5-60F6CCC77355}|SIMSprojekat\\SIMSprojekat.csproj|c:\\users\\korisnik\\source\\repos\\simsprojekat\\simsprojekat\\addhotelwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19AFAF1B-A105-4DCC-91E5-60F6CCC77355}|SIMSprojekat\\SIMSprojekat.csproj|solutionrelative:simsprojekat\\addhotelwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19AFAF1B-A105-4DCC-91E5-60F6CCC77355}|SIMSprojekat\\SIMSprojekat.csproj|c:\\users\\korisnik\\source\\repos\\simsprojekat\\simsprojekat\\repositories\\hotelrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19AFAF1B-A105-4DCC-91E5-60F6CCC77355}|SIMSprojekat\\SIMSprojekat.csproj|solutionrelative:simsprojekat\\repositories\\hotelrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19AFAF1B-A105-4DCC-91E5-60F6CCC77355}|SIMSprojekat\\SIMSprojekat.csproj|c:\\users\\korisnik\\source\\repos\\simsprojekat\\simsprojekat\\models\\hotel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19AFAF1B-A105-4DCC-91E5-60F6CCC77355}|SIMSprojekat\\SIMSprojekat.csproj|solutionrelative:simsprojekat\\models\\hotel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19AFAF1B-A105-4DCC-91E5-60F6CCC77355}|SIMSprojekat\\SIMSprojekat.csproj|c:\\users\\korisnik\\source\\repos\\simsprojekat\\simsprojekat\\ownerwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{19AFAF1B-A105-4DCC-91E5-60F6CCC77355}|SIMSprojekat\\SIMSprojekat.csproj|solutionrelative:simsprojekat\\ownerwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19AFAF1B-A105-4DCC-91E5-60F6CCC77355}|SIMSprojekat\\SIMSprojekat.csproj|c:\\users\\korisnik\\source\\repos\\simsprojekat\\simsprojekat\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{19AFAF1B-A105-4DCC-91E5-60F6CCC77355}|SIMSprojekat\\SIMSprojekat.csproj|solutionrelative:simsprojekat\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19AFAF1B-A105-4DCC-91E5-60F6CCC77355}|SIMSprojekat\\SIMSprojekat.csproj|c:\\users\\korisnik\\source\\repos\\simsprojekat\\simsprojekat\\adminwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{19AFAF1B-A105-4DCC-91E5-60F6CCC77355}|SIMSprojekat\\SIMSprojekat.csproj|solutionrelative:simsprojekat\\adminwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19AFAF1B-A105-4DCC-91E5-60F6CCC77355}|SIMSprojekat\\SIMSprojekat.csproj|c:\\users\\korisnik\\source\\repos\\simsprojekat\\simsprojekat\\adminwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19AFAF1B-A105-4DCC-91E5-60F6CCC77355}|SIMSprojekat\\SIMSprojekat.csproj|solutionrelative:simsprojekat\\adminwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19AFAF1B-A105-4DCC-91E5-60F6CCC77355}|SIMSprojekat\\SIMSprojekat.csproj|c:\\users\\korisnik\\source\\repos\\simsprojekat\\simsprojekat\\registerownerwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19AFAF1B-A105-4DCC-91E5-60F6CCC77355}|SIMSprojekat\\SIMSprojekat.csproj|solutionrelative:simsprojekat\\registerownerwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19AFAF1B-A105-4DCC-91E5-60F6CCC77355}|SIMSprojekat\\SIMSprojekat.csproj|c:\\users\\korisnik\\source\\repos\\simsprojekat\\simsprojekat\\registerownerwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{19AFAF1B-A105-4DCC-91E5-60F6CCC77355}|SIMSprojekat\\SIMSprojekat.csproj|solutionrelative:simsprojekat\\registerownerwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19AFAF1B-A105-4DCC-91E5-60F6CCC77355}|SIMSprojekat\\SIMSprojekat.csproj|c:\\users\\korisnik\\source\\repos\\simsprojekat\\simsprojekat\\addhotelwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{19AFAF1B-A105-4DCC-91E5-60F6CCC77355}|SIMSprojekat\\SIMSprojekat.csproj|solutionrelative:simsprojekat\\addhotelwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19AFAF1B-A105-4DCC-91E5-60F6CCC77355}|SIMSprojekat\\SIMSprojekat.csproj|c:\\users\\korisnik\\source\\repos\\simsprojekat\\simsprojekat\\noviapartmanwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19AFAF1B-A105-4DCC-91E5-60F6CCC77355}|SIMSprojekat\\SIMSprojekat.csproj|solutionrelative:simsprojekat\\noviapartmanwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19AFAF1B-A105-4DCC-91E5-60F6CCC77355}|SIMSprojekat\\SIMSprojekat.csproj|c:\\users\\korisnik\\source\\repos\\simsprojekat\\simsprojekat\\noviapartmanwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{19AFAF1B-A105-4DCC-91E5-60F6CCC77355}|SIMSprojekat\\SIMSprojekat.csproj|solutionrelative:simsprojekat\\noviapartmanwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19AFAF1B-A105-4DCC-91E5-60F6CCC77355}|SIMSprojekat\\SIMSprojekat.csproj|c:\\users\\korisnik\\source\\repos\\simsprojekat\\simsprojekat\\rezervacijawindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{19AFAF1B-A105-4DCC-91E5-60F6CCC77355}|SIMSprojekat\\SIMSprojekat.csproj|solutionrelative:simsprojekat\\rezervacijawindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19AFAF1B-A105-4DCC-91E5-60F6CCC77355}|SIMSprojekat\\SIMSprojekat.csproj|c:\\users\\korisnik\\source\\repos\\simsprojekat\\simsprojekat\\repositories\\apartmanrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19AFAF1B-A105-4DCC-91E5-60F6CCC77355}|SIMSprojekat\\SIMSprojekat.csproj|solutionrelative:simsprojekat\\repositories\\apartmanrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19AFAF1B-A105-4DCC-91E5-60F6CCC77355}|SIMSprojekat\\SIMSprojekat.csproj|c:\\users\\korisnik\\source\\repos\\simsprojekat\\simsprojekat\\repositories\\korisnikrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19AFAF1B-A105-4DCC-91E5-60F6CCC77355}|SIMSprojekat\\SIMSprojekat.csproj|solutionrelative:simsprojekat\\repositories\\korisnikrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19AFAF1B-A105-4DCC-91E5-60F6CCC77355}|SIMSprojekat\\SIMSprojekat.csproj|c:\\users\\korisnik\\source\\repos\\simsprojekat\\simsprojekat\\repositories\\rezervacijarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19AFAF1B-A105-4DCC-91E5-60F6CCC77355}|SIMSprojekat\\SIMSprojekat.csproj|solutionrelative:simsprojekat\\repositories\\rezervacijarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19AFAF1B-A105-4DCC-91E5-60F6CCC77355}|SIMSprojekat\\SIMSprojekat.csproj|c:\\users\\korisnik\\source\\repos\\simsprojekat\\simsprojekat\\models\\rezervacija.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19AFAF1B-A105-4DCC-91E5-60F6CCC77355}|SIMSprojekat\\SIMSprojekat.csproj|solutionrelative:simsprojekat\\models\\rezervacija.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19AFAF1B-A105-4DCC-91E5-60F6CCC77355}|SIMSprojekat\\SIMSprojekat.csproj|c:\\users\\korisnik\\source\\repos\\simsprojekat\\simsprojekat\\models\\apartman.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19AFAF1B-A105-4DCC-91E5-60F6CCC77355}|SIMSprojekat\\SIMSprojekat.csproj|solutionrelative:simsprojekat\\models\\apartman.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Korisnik.cs",
+              "DocumentMoniker": "C:\\Users\\Korisnik\\source\\repos\\SIMSprojekat\\SIMSprojekat\\Models\\Korisnik.cs",
+              "RelativeDocumentMoniker": "SIMSprojekat\\Models\\Korisnik.cs",
+              "ToolTip": "C:\\Users\\Korisnik\\source\\repos\\SIMSprojekat\\SIMSprojekat\\Models\\Korisnik.cs",
+              "RelativeToolTip": "SIMSprojekat\\Models\\Korisnik.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAkAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-30T13:15:43.04Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "RezervacijaWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Korisnik\\source\\repos\\SIMSprojekat\\SIMSprojekat\\RezervacijaWindow.xaml.cs",
+              "RelativeDocumentMoniker": "SIMSprojekat\\RezervacijaWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\Korisnik\\source\\repos\\SIMSprojekat\\SIMSprojekat\\RezervacijaWindow.xaml.cs",
+              "RelativeToolTip": "SIMSprojekat\\RezervacijaWindow.xaml.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAACMAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-30T21:42:50.892Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "RezervacijaService.cs",
+              "DocumentMoniker": "C:\\Users\\Korisnik\\source\\repos\\SIMSprojekat\\SIMSprojekat\\Services\\RezervacijaService.cs",
+              "RelativeDocumentMoniker": "SIMSprojekat\\Services\\RezervacijaService.cs",
+              "ToolTip": "C:\\Users\\Korisnik\\source\\repos\\SIMSprojekat\\SIMSprojekat\\Services\\RezervacijaService.cs",
+              "RelativeToolTip": "SIMSprojekat\\Services\\RezervacijaService.cs",
+              "ViewState": "AgIAAGsAAAAAAAAAAAAkwJEAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-30T21:38:46.641Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "RegisterWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Korisnik\\source\\repos\\SIMSprojekat\\SIMSprojekat\\RegisterWindow.xaml.cs",
+              "RelativeDocumentMoniker": "SIMSprojekat\\RegisterWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\Korisnik\\source\\repos\\SIMSprojekat\\SIMSprojekat\\RegisterWindow.xaml.cs",
+              "RelativeToolTip": "SIMSprojekat\\RegisterWindow.xaml.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwCYAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-30T22:18:49.753Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "RegisterWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\Korisnik\\source\\repos\\SIMSprojekat\\SIMSprojekat\\RegisterWindow.xaml",
+              "RelativeDocumentMoniker": "SIMSprojekat\\RegisterWindow.xaml",
+              "ToolTip": "C:\\Users\\Korisnik\\source\\repos\\SIMSprojekat\\SIMSprojekat\\RegisterWindow.xaml",
+              "RelativeToolTip": "SIMSprojekat\\RegisterWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-09-30T22:16:17.168Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "GuestWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\Korisnik\\source\\repos\\SIMSprojekat\\SIMSprojekat\\GuestWindow.xaml",
+              "RelativeDocumentMoniker": "SIMSprojekat\\GuestWindow.xaml",
+              "ToolTip": "C:\\Users\\Korisnik\\source\\repos\\SIMSprojekat\\SIMSprojekat\\GuestWindow.xaml",
+              "RelativeToolTip": "SIMSprojekat\\GuestWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-09-30T13:49:40.647Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "GuestWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Korisnik\\source\\repos\\SIMSprojekat\\SIMSprojekat\\GuestWindow.xaml.cs",
+              "RelativeDocumentMoniker": "SIMSprojekat\\GuestWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\Korisnik\\source\\repos\\SIMSprojekat\\SIMSprojekat\\GuestWindow.xaml.cs",
+              "RelativeToolTip": "SIMSprojekat\\GuestWindow.xaml.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAmwCkAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-30T13:55:32.699Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Korisnik\\source\\repos\\SIMSprojekat\\SIMSprojekat\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "SIMSprojekat\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\Korisnik\\source\\repos\\SIMSprojekat\\SIMSprojekat\\MainWindow.xaml.cs",
+              "RelativeToolTip": "SIMSprojekat\\MainWindow.xaml.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAswCoAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-30T13:09:46.122Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AutoService.cs",
+              "DocumentMoniker": "C:\\Users\\Korisnik\\source\\repos\\SIMSprojekat\\SIMSprojekat\\Services\\AutoService.cs",
+              "RelativeDocumentMoniker": "SIMSprojekat\\Services\\AutoService.cs",
+              "ToolTip": "C:\\Users\\Korisnik\\source\\repos\\SIMSprojekat\\SIMSprojekat\\Services\\AutoService.cs",
+              "RelativeToolTip": "SIMSprojekat\\Services\\AutoService.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAYwC0AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-30T13:40:36.385Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "HotelService.cs",
+              "DocumentMoniker": "C:\\Users\\Korisnik\\source\\repos\\SIMSprojekat\\SIMSprojekat\\Services\\HotelService.cs",
+              "RelativeDocumentMoniker": "SIMSprojekat\\Services\\HotelService.cs",
+              "ToolTip": "C:\\Users\\Korisnik\\source\\repos\\SIMSprojekat\\SIMSprojekat\\Services\\HotelService.cs",
+              "RelativeToolTip": "SIMSprojekat\\Services\\HotelService.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAAwCwAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-30T14:16:43.59Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "OwnerService.cs",
+              "DocumentMoniker": "C:\\Users\\Korisnik\\source\\repos\\SIMSprojekat\\SIMSprojekat\\Services\\OwnerService.cs",
+              "RelativeDocumentMoniker": "SIMSprojekat\\Services\\OwnerService.cs",
+              "ToolTip": "C:\\Users\\Korisnik\\source\\repos\\SIMSprojekat\\SIMSprojekat\\Services\\OwnerService.cs",
+              "RelativeToolTip": "SIMSprojekat\\Services\\OwnerService.cs",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAuwE8AAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-30T23:20:36.879Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "OwnerWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Korisnik\\source\\repos\\SIMSprojekat\\SIMSprojekat\\OwnerWindow.xaml.cs",
+              "RelativeDocumentMoniker": "SIMSprojekat\\OwnerWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\Korisnik\\source\\repos\\SIMSprojekat\\SIMSprojekat\\OwnerWindow.xaml.cs",
+              "RelativeToolTip": "SIMSprojekat\\OwnerWindow.xaml.cs",
+              "ViewState": "AgIAAD0AAAAAAAAAAAAkwFMAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-30T13:56:48.531Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "AdminService.cs",
+              "DocumentMoniker": "C:\\Users\\Korisnik\\source\\repos\\SIMSprojekat\\SIMSprojekat\\Services\\AdminService.cs",
+              "RelativeDocumentMoniker": "SIMSprojekat\\Services\\AdminService.cs",
+              "ToolTip": "C:\\Users\\Korisnik\\source\\repos\\SIMSprojekat\\SIMSprojekat\\Services\\AdminService.cs",
+              "RelativeToolTip": "SIMSprojekat\\Services\\AdminService.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwB8AAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-30T23:49:52.086Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "AddHotelWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Korisnik\\source\\repos\\SIMSprojekat\\SIMSprojekat\\AddHotelWindow.xaml.cs",
+              "RelativeDocumentMoniker": "SIMSprojekat\\AddHotelWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\Korisnik\\source\\repos\\SIMSprojekat\\SIMSprojekat\\AddHotelWindow.xaml.cs",
+              "RelativeToolTip": "SIMSprojekat\\AddHotelWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-01T10:47:04.91Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "HotelRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Korisnik\\source\\repos\\SIMSprojekat\\SIMSprojekat\\Repositories\\HotelRepository.cs",
+              "RelativeDocumentMoniker": "SIMSprojekat\\Repositories\\HotelRepository.cs",
+              "ToolTip": "C:\\Users\\Korisnik\\source\\repos\\SIMSprojekat\\SIMSprojekat\\Repositories\\HotelRepository.cs",
+              "RelativeToolTip": "SIMSprojekat\\Repositories\\HotelRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-30T13:22:07.468Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Hotel.cs",
+              "DocumentMoniker": "C:\\Users\\Korisnik\\source\\repos\\SIMSprojekat\\SIMSprojekat\\Models\\Hotel.cs",
+              "RelativeDocumentMoniker": "SIMSprojekat\\Models\\Hotel.cs",
+              "ToolTip": "C:\\Users\\Korisnik\\source\\repos\\SIMSprojekat\\SIMSprojekat\\Models\\Hotel.cs",
+              "RelativeToolTip": "SIMSprojekat\\Models\\Hotel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-30T13:16:17.638Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "OwnerWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\Korisnik\\source\\repos\\SIMSprojekat\\SIMSprojekat\\OwnerWindow.xaml",
+              "RelativeDocumentMoniker": "SIMSprojekat\\OwnerWindow.xaml",
+              "ToolTip": "C:\\Users\\Korisnik\\source\\repos\\SIMSprojekat\\SIMSprojekat\\OwnerWindow.xaml",
+              "RelativeToolTip": "SIMSprojekat\\OwnerWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-09-30T13:48:10.676Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\Korisnik\\source\\repos\\SIMSprojekat\\SIMSprojekat\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "SIMSprojekat\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\Korisnik\\source\\repos\\SIMSprojekat\\SIMSprojekat\\MainWindow.xaml",
+              "RelativeToolTip": "SIMSprojekat\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-09-30T13:09:49.338Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "AdminWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\Korisnik\\source\\repos\\SIMSprojekat\\SIMSprojekat\\AdminWindow.xaml",
+              "RelativeDocumentMoniker": "SIMSprojekat\\AdminWindow.xaml",
+              "ToolTip": "C:\\Users\\Korisnik\\source\\repos\\SIMSprojekat\\SIMSprojekat\\AdminWindow.xaml",
+              "RelativeToolTip": "SIMSprojekat\\AdminWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-09-30T13:47:47.875Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "AdminWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Korisnik\\source\\repos\\SIMSprojekat\\SIMSprojekat\\AdminWindow.xaml.cs",
+              "RelativeDocumentMoniker": "SIMSprojekat\\AdminWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\Korisnik\\source\\repos\\SIMSprojekat\\SIMSprojekat\\AdminWindow.xaml.cs",
+              "RelativeToolTip": "SIMSprojekat\\AdminWindow.xaml.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAACEAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-30T13:50:10.999Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "RegisterOwnerWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Korisnik\\source\\repos\\SIMSprojekat\\SIMSprojekat\\RegisterOwnerWindow.xaml.cs",
+              "RelativeDocumentMoniker": "SIMSprojekat\\RegisterOwnerWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\Korisnik\\source\\repos\\SIMSprojekat\\SIMSprojekat\\RegisterOwnerWindow.xaml.cs",
+              "RelativeToolTip": "SIMSprojekat\\RegisterOwnerWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-01T10:56:52.536Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "RegisterOwnerWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\Korisnik\\source\\repos\\SIMSprojekat\\SIMSprojekat\\RegisterOwnerWindow.xaml",
+              "RelativeDocumentMoniker": "SIMSprojekat\\RegisterOwnerWindow.xaml",
+              "ToolTip": "C:\\Users\\Korisnik\\source\\repos\\SIMSprojekat\\SIMSprojekat\\RegisterOwnerWindow.xaml",
+              "RelativeToolTip": "SIMSprojekat\\RegisterOwnerWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-09-30T23:50:57.856Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "AddHotelWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\Korisnik\\source\\repos\\SIMSprojekat\\SIMSprojekat\\AddHotelWindow.xaml",
+              "RelativeDocumentMoniker": "SIMSprojekat\\AddHotelWindow.xaml",
+              "ToolTip": "C:\\Users\\Korisnik\\source\\repos\\SIMSprojekat\\SIMSprojekat\\AddHotelWindow.xaml",
+              "RelativeToolTip": "SIMSprojekat\\AddHotelWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-10-01T10:39:56.016Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "NoviApartmanWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Korisnik\\source\\repos\\SIMSprojekat\\SIMSprojekat\\NoviApartmanWindow.xaml.cs",
+              "RelativeDocumentMoniker": "SIMSprojekat\\NoviApartmanWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\Korisnik\\source\\repos\\SIMSprojekat\\SIMSprojekat\\NoviApartmanWindow.xaml.cs",
+              "RelativeToolTip": "SIMSprojekat\\NoviApartmanWindow.xaml.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAcwCsAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-30T23:22:39.571Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "NoviApartmanWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\Korisnik\\source\\repos\\SIMSprojekat\\SIMSprojekat\\NoviApartmanWindow.xaml",
+              "RelativeDocumentMoniker": "SIMSprojekat\\NoviApartmanWindow.xaml",
+              "ToolTip": "C:\\Users\\Korisnik\\source\\repos\\SIMSprojekat\\SIMSprojekat\\NoviApartmanWindow.xaml",
+              "RelativeToolTip": "SIMSprojekat\\NoviApartmanWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-09-30T23:22:37.179Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "RezervacijaWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\Korisnik\\source\\repos\\SIMSprojekat\\SIMSprojekat\\RezervacijaWindow.xaml",
+              "RelativeDocumentMoniker": "SIMSprojekat\\RezervacijaWindow.xaml",
+              "ToolTip": "C:\\Users\\Korisnik\\source\\repos\\SIMSprojekat\\SIMSprojekat\\RezervacijaWindow.xaml",
+              "RelativeToolTip": "SIMSprojekat\\RezervacijaWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-09-30T21:41:36.479Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "ApartmanRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Korisnik\\source\\repos\\SIMSprojekat\\SIMSprojekat\\Repositories\\ApartmanRepository.cs",
+              "RelativeDocumentMoniker": "SIMSprojekat\\Repositories\\ApartmanRepository.cs",
+              "ToolTip": "C:\\Users\\Korisnik\\source\\repos\\SIMSprojekat\\SIMSprojekat\\Repositories\\ApartmanRepository.cs",
+              "RelativeToolTip": "SIMSprojekat\\Repositories\\ApartmanRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-30T13:22:24.893Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "RezervacijaRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Korisnik\\source\\repos\\SIMSprojekat\\SIMSprojekat\\Repositories\\RezervacijaRepository.cs",
+              "RelativeDocumentMoniker": "SIMSprojekat\\Repositories\\RezervacijaRepository.cs",
+              "ToolTip": "C:\\Users\\Korisnik\\source\\repos\\SIMSprojekat\\SIMSprojekat\\Repositories\\RezervacijaRepository.cs",
+              "RelativeToolTip": "SIMSprojekat\\Repositories\\RezervacijaRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-30T13:22:38.446Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "KorisnikRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Korisnik\\source\\repos\\SIMSprojekat\\SIMSprojekat\\Repositories\\KorisnikRepository.cs",
+              "RelativeDocumentMoniker": "SIMSprojekat\\Repositories\\KorisnikRepository.cs",
+              "ToolTip": "C:\\Users\\Korisnik\\source\\repos\\SIMSprojekat\\SIMSprojekat\\Repositories\\KorisnikRepository.cs",
+              "RelativeToolTip": "SIMSprojekat\\Repositories\\KorisnikRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAABcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-30T13:21:50.293Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Rezervacija.cs",
+              "DocumentMoniker": "C:\\Users\\Korisnik\\source\\repos\\SIMSprojekat\\SIMSprojekat\\Models\\Rezervacija.cs",
+              "RelativeDocumentMoniker": "SIMSprojekat\\Models\\Rezervacija.cs",
+              "ToolTip": "C:\\Users\\Korisnik\\source\\repos\\SIMSprojekat\\SIMSprojekat\\Models\\Rezervacija.cs",
+              "RelativeToolTip": "SIMSprojekat\\Models\\Rezervacija.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-30T13:16:51.944Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Apartman.cs",
+              "DocumentMoniker": "C:\\Users\\Korisnik\\source\\repos\\SIMSprojekat\\SIMSprojekat\\Models\\Apartman.cs",
+              "RelativeDocumentMoniker": "SIMSprojekat\\Models\\Apartman.cs",
+              "ToolTip": "C:\\Users\\Korisnik\\source\\repos\\SIMSprojekat\\SIMSprojekat\\Models\\Apartman.cs",
+              "RelativeToolTip": "SIMSprojekat\\Models\\Apartman.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-30T13:16:33.076Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

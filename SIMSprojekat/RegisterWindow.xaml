@@ -1,0 +1,95 @@
+﻿<Window x:Class="SIMSprojekat.RegisterWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Registracija gosta"
+        Height="480" Width="560"
+        WindowStartupLocation="CenterOwner"
+        ResizeMode="NoResize">
+    <Window.Resources>
+        <Style TargetType="TextBox">
+            <Setter Property="Margin" Value="0,0,0,10"/>
+            <Setter Property="Height" Value="32"/>
+            <Setter Property="HorizontalAlignment" Value="Stretch"/>
+        </Style>
+        <Style TargetType="PasswordBox">
+            <Setter Property="Margin" Value="0,0,0,10"/>
+            <Setter Property="Height" Value="32"/>
+            <Setter Property="HorizontalAlignment" Value="Stretch"/>
+        </Style>
+        <Style TargetType="TextBlock">
+            <Setter Property="VerticalAlignment" Value="Center"/>
+            <Setter Property="Margin" Value="0,0,8,10"/>
+        </Style>
+        <Style TargetType="Button">
+            <Setter Property="Height" Value="34"/>
+            <Setter Property="MinWidth" Value="120"/>
+            <Setter Property="Padding" Value="12,4"/>
+        </Style>
+    </Window.Resources>
+
+    <Grid Margin="16">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <TextBlock Text="Unesite podatke za registraciju"
+               FontSize="18" FontWeight="SemiBold" Margin="0,0,0,12"/>
+
+        <!-- KARTICA SA POLJIMA -->
+        <Border Grid.Row="1" Padding="16" CornerRadius="10"
+            Background="White" BorderBrush="#DDDDDD" BorderThickness="1">
+            <!-- PRVO DEFINIŠEMO REDOVE I KOLONE -->
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="160"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+
+                <!-- Ime -->
+                <TextBlock Grid.Row="0" Grid.Column="0" Text="Ime:"/>
+                <TextBox   Grid.Row="0" Grid.Column="1" x:Name="ImeBox"/>
+
+                <!-- Prezime -->
+                <TextBlock Grid.Row="1" Grid.Column="0" Text="Prezime:"/>
+                <TextBox   Grid.Row="1" Grid.Column="1" x:Name="PrezimeBox"/>
+
+                <!-- JMBG -->
+                <TextBlock Grid.Row="2" Grid.Column="0" Text="JMBG:"/>
+                <TextBox   Grid.Row="2" Grid.Column="1" x:Name="JmbgBox"/>
+
+                <!-- Email -->
+                <TextBlock Grid.Row="3" Grid.Column="0" Text="Email:"/>
+                <TextBox   Grid.Row="3" Grid.Column="1" x:Name="EmailBox"/>
+
+                <!-- Telefon -->
+                <TextBlock Grid.Row="4" Grid.Column="0" Text="Telefon:"/>
+                <TextBox   Grid.Row="4" Grid.Column="1" x:Name="TelefonBox"/>
+
+                <!-- Lozinka -->
+                <TextBlock     Grid.Row="5" Grid.Column="0" Text="Lozinka:"/>
+                <PasswordBox   Grid.Row="5" Grid.Column="1" x:Name="PassBox"/>
+
+                <!-- Potvrda lozinke -->
+                <TextBlock     Grid.Row="6" Grid.Column="0" Text="Potvrdi lozinku:"/>
+                <PasswordBox   Grid.Row="6" Grid.Column="1" x:Name="PassConfirmBox"/>
+            </Grid>
+        </Border>
+
+        <!-- DUGMAD -->
+        <StackPanel Grid.Row="2" Orientation="Horizontal" HorizontalAlignment="Right" Margin="0,12,0,0">
+            <Button Content="Otkaži" Margin="0,0,8,0" Click="Cancel_Click"/>
+            <Button Content="Registruj" Click="Register_Click"/>
+        </StackPanel>
+    </Grid>
+</Window>

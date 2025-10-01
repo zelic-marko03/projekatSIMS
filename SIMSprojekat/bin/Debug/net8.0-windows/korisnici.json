@@ -1,0 +1,65 @@
+[
+  {
+    "JMBG": "0000000000000",
+    "Email": "admin@sims.com",
+    "Lozinka": "admin",
+    "Ime": "Admin",
+    "Prezime": "Admin",
+    "Telefon": "000",
+    "Tip": 0
+  },
+  {
+    "JMBG": "1111111111111",
+    "Email": "gost@test.com",
+    "Lozinka": "gost",
+    "Ime": "Gost",
+    "Prezime": "Test",
+    "Telefon": "111",
+    "Tip": 1
+  },
+  {
+    "JMBG": "26092003800034",
+    "Email": "marko@gmail.com",
+    "Lozinka": "marko",
+    "Ime": "marko",
+    "Prezime": "zelic",
+    "Telefon": "0646456498",
+    "Tip": 1
+  },
+  {
+    "JMBG": "2609200300003",
+    "Email": "milos@gmail.com",
+    "Lozinka": "milos",
+    "Ime": "milos",
+    "Prezime": "zelic",
+    "Telefon": "064659846",
+    "Tip": 2
+  },
+  {
+    "JMBG": "1234123412341",
+    "Email": "anja@gmail.com",
+    "Lozinka": "anja",
+    "Ime": "anja",
+    "Prezime": "colic",
+    "Telefon": "48546548948",
+    "Tip": 2
+  },
+  {
+    "JMBG": "1234432112343",
+    "Email": "pera@gost.com",
+    "Lozinka": "pera",
+    "Ime": "pera",
+    "Prezime": "peric",
+    "Telefon": "6699887744",
+    "Tip": 1
+  },
+  {
+    "JMBG": "12341213456789",
+    "Email": "pera@gost2.com",
+    "Lozinka": "pera2",
+    "Ime": "pera",
+    "Prezime": "peric",
+    "Telefon": "123141685",
+    "Tip": 1
+  }
+]
