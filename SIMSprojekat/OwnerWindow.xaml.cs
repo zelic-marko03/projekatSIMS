@@ -10,6 +10,7 @@ namespace SIMSprojekat
     {
         private readonly Korisnik _vlasnik;
         private readonly OwnerService _svc = new OwnerService();
+        private readonly ApartmanService _aptSvc = new ApartmanService(); // NOVO
 
         public OwnerWindow(Korisnik vlasnik)
         {
@@ -28,30 +29,29 @@ namespace SIMSprojekat
                              .OrderBy(h => h.Ime)
                              .Select(h => new { h.Sifra, Naziv = $"{h.Sifra} - {h.Ime}" })
                              .ToList();
+
             HotelBox.ItemsSource = hoteli;
             if (hoteli.Any()) HotelBox.SelectedIndex = 0;
         }
 
         private void LoadRezervacije(StatusRezervacije? filter)
         {
-            var izabrani = HotelBox.SelectedItem;
-            string sifraHotela = null;
-            if (izabrani != null)
-            {
-                // hotel filter: prikazujemo rezervacije SAMO za apartmane tog hotela
-                sifraHotela = (string)izabrani.GetType().GetProperty("Sifra")!.GetValue(izabrani, null);
-            }
+            // bez refleksije: SelectedValuePath="Sifra" u XAML-u
+            string sifraHotela = HotelBox.SelectedValue as string;
 
-            // dohvatimo sve pa filtriramo po hotelu
             var sve = _svc.RezervacijeVlasnika(_vlasnik.JMBG, filter);
+
             if (!string.IsNullOrEmpty(sifraHotela))
+            {
+                // filtriraj rezervacije samo za apartmane u izabranom hotelu
+                var aRepo = new Repositories.ApartmanRepository();
+                var sviApt = aRepo.GetAll();
                 sve = sve.Where(r =>
                 {
-                    // Apartman -> HotelSifra mapping
-                    var aRepo = new Repositories.ApartmanRepository();
-                    var a = aRepo.GetAll().FirstOrDefault(x => x.Ime == r.ApartmanIme);
+                    var a = sviApt.FirstOrDefault(x => x.Ime == r.ApartmanIme);
                     return a != null && a.HotelSifra == sifraHotela;
                 }).ToList();
+            }
 
             RezGrid.ItemsSource = sve;
         }
@@ -78,7 +78,7 @@ namespace SIMSprojekat
         private void Potvrdi_Click(object sender, RoutedEventArgs e)
         {
             if (RezGrid.SelectedItem is not Rezervacija r) { MessageBox.Show("Izaberite rezervaciju."); return; }
-            var (ok, poruka) = _svc.PotvrdiRezervaciju(r.Id);
+            var (_, poruka) = _svc.PotvrdiRezervaciju(r.Id);
             MessageBox.Show(poruka);
             LoadRezervacije(GetRezFilter());
         }
@@ -88,7 +88,7 @@ namespace SIMSprojekat
             if (RezGrid.SelectedItem is not Rezervacija r) { MessageBox.Show("Izaberite rezervaciju."); return; }
             var razlog = Microsoft.VisualBasic.Interaction.InputBox("Unesite razlog odbijanja:", "Odbijanje rezervacije", "");
             if (string.IsNullOrWhiteSpace(razlog)) return;
-            var (ok, poruka) = _svc.OdbijRezervaciju(r.Id, razlog.Trim());
+            var (_, poruka) = _svc.OdbijRezervaciju(r.Id, razlog.Trim());
             MessageBox.Show(poruka);
             LoadRezervacije(GetRezFilter());
         }
@@ -118,7 +118,7 @@ namespace SIMSprojekat
         private void PrihvatiHotel_Click(object sender, RoutedEventArgs e)
         {
             if (HoteliGrid.SelectedItem is not Hotel h) { MessageBox.Show("Izaberite hotel."); return; }
-            var (ok, poruka) = _svc.PrihvatiHotel(h.Sifra);
+            var (_, poruka) = _svc.PrihvatiHotel(h.Sifra);
             MessageBox.Show(poruka);
             LoadHoteli(GetHotelFilter());
             InitHoteliDropDown(); // da upadne u izbor ako je bio na čekanju
@@ -129,9 +129,43 @@ namespace SIMSprojekat
             if (HoteliGrid.SelectedItem is not Hotel h) { MessageBox.Show("Izaberite hotel."); return; }
             var razlog = Microsoft.VisualBasic.Interaction.InputBox("Razlog odbijanja hotela:", "Odbijanje hotela", "");
             if (string.IsNullOrWhiteSpace(razlog)) return;
-            var (ok, poruka) = _svc.OdbijHotel(h.Sifra, razlog.Trim());
+            var (_, poruka) = _svc.OdbijHotel(h.Sifra, razlog.Trim());
             MessageBox.Show(poruka);
             LoadHoteli(GetHotelFilter());
+        }
+
+        // === NOVO: Dodavanje apartmana u izabrani hotel (quick dialog) ===
+        private void NoviApartman_Click(object sender, RoutedEventArgs e)
+        {
+            if (HoteliGrid.SelectedItem is not Hotel h) { MessageBox.Show("Izaberite hotel."); return; }
+            if (h.Status != StatusHotela.Prihvacen)
+            {
+                MessageBox.Show("Hotel mora biti prihvaćen da biste dodali apartman.");
+                return;
+            }
+
+            // jednostavan prompt – možeš zameniti tvojim prozorom NoviApartmanWindow
+            string ime = Microsoft.VisualBasic.Interaction.InputBox("Ime apartmana:", "Novi apartman", "");
+            if (string.IsNullOrWhiteSpace(ime)) return;
+
+            string opis = Microsoft.VisualBasic.Interaction.InputBox("Opis (opciono):", "Novi apartman", "");
+            if (!int.TryParse(Microsoft.VisualBasic.Interaction.InputBox("Broj soba:", "Novi apartman", ""), out int sobe))
+            { MessageBox.Show("Unesi validan broj soba."); return; }
+
+            if (!int.TryParse(Microsoft.VisualBasic.Interaction.InputBox("Max broj gostiju:", "Novi apartman", ""), out int gosti))
+            { MessageBox.Show("Unesi validan broj gostiju."); return; }
+
+            var apt = new Apartman
+            {
+                Ime = ime.Trim(),
+                Opis = (opis ?? "").Trim(),
+                BrojSoba = sobe,
+                MaxBrojGostiju = gosti,
+                HotelSifra = h.Sifra
+            };
+
+            var (ok, poruka) = _aptSvc.Add(apt);
+            MessageBox.Show(poruka);
         }
     }
 }

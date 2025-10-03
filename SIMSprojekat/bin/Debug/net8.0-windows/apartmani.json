@@ -26,5 +26,19 @@
     "BrojSoba": 2,
     "MaxBrojGostiju": 4,
     "HotelSifra": "H3"
+  },
+  {
+    "Ime": "DuoDeluxe",
+    "Opis": "Apartman za dve osobe,VIP",
+    "BrojSoba": 2,
+    "MaxBrojGostiju": 2,
+    "HotelSifra": "3"
+  },
+  {
+    "Ime": "GR-Std",
+    "Opis": "Standard",
+    "BrojSoba": 2,
+    "MaxBrojGostiju": 3,
+    "HotelSifra": "H4"
   }
 ]

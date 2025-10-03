@@ -1,0 +1,29 @@
+[
+  {
+    "Id": "3d7e77ba-8669-4844-ac61-9ed9f43e6a29",
+    "GostEmail": "pera@gost.com",
+    "ApartmanIme": "FS-Deluxe",
+    "DatumOd": "2025-10-02T00:00:00+02:00",
+    "DatumDo": "2025-10-02T00:00:00+02:00",
+    "Status": 0,
+    "RazlogOdbijanja": null
+  },
+  {
+    "Id": "9d36c9cc-33ad-494d-9d9b-bfe244b6419f",
+    "GostEmail": "milorad@gost.com",
+    "ApartmanIme": "DuoDeluxe",
+    "DatumOd": "2025-10-02T00:00:00+02:00",
+    "DatumDo": "2025-10-10T00:00:00",
+    "Status": 1,
+    "RazlogOdbijanja": null
+  },
+  {
+    "Id": "5e8302ff-7666-464a-a716-0bf57e8bba20",
+    "GostEmail": "milorad@gost.com",
+    "ApartmanIme": "GR-Std",
+    "DatumOd": "2025-10-03T00:00:00+02:00",
+    "DatumDo": "2025-10-03T00:00:00+02:00",
+    "Status": 2,
+    "RazlogOdbijanja": "nema slobodnih kapaciteta"
+  }
+]

@@ -8,6 +8,9 @@
     <Compile Update="AdminWindow.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="GuestReservationsWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="GuestWindow.xaml.cs">
       <SubType>Code</SubType>
     </Compile>

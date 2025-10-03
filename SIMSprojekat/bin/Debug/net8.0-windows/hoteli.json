@@ -43,5 +43,23 @@
     "VlasnikJMBG": "1234123412341",
     "Status": 2,
     "RazlogOdbijanja": "ne ispunjava kriterijume"
+  },
+  {
+    "Sifra": "3",
+    "Ime": "Grand",
+    "GodinaIzgradnje": 2019,
+    "BrojZvezdica": 4,
+    "VlasnikJMBG": "2222222222222",
+    "Status": 1,
+    "RazlogOdbijanja": null
+  },
+  {
+    "Sifra": "H4",
+    "Ime": "Hyatt",
+    "GodinaIzgradnje": 2022,
+    "BrojZvezdica": 5,
+    "VlasnikJMBG": "5555555555555",
+    "Status": 1,
+    "RazlogOdbijanja": null
   }
 ]

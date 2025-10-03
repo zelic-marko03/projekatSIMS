@@ -1,7 +1,7 @@
 ﻿using System.Linq;
 using System.Windows;
-using System.Windows.Controls; // zbog ComboBoxItem
-using SIMSprojekat.Models;     // zbog Korisnik
+using System.Windows.Controls;
+using SIMSprojekat.Models;
 using SIMSprojekat.Services;
 
 namespace SIMSprojekat
@@ -11,10 +11,10 @@ namespace SIMSprojekat
         private readonly HotelService _svc = new HotelService();
         private readonly Korisnik _gost; // ulogovani gost (opciono)
 
-        // potreban XAML/Designer-u
+        // Za designer
         public GuestWindow() : this(null) { }
 
-        // koristi se iz MainWindow-a: new GuestWindow(user)
+        // Pozivaj iz MainWindow-a: new GuestWindow(user)
         public GuestWindow(Korisnik gost)
         {
             InitializeComponent();
@@ -23,37 +23,22 @@ namespace SIMSprojekat
             if (_gost != null)
                 Title = $"Gost – {_gost.Ime} {_gost.Prezime}";
 
-            // ako želiš demo podatke:
-            // _svc.EnsureSeed();
-
-            // podesi default operator za apartmane
+            // Default operator za pretragu po apartmanima
             if (OpBox.Items.Count > 0 && OpBox.SelectedIndex < 0) OpBox.SelectedIndex = 0;
 
-            LoadAll();
-        }
-
-        // ako u XAML-u imaš Loaded="Window_Loaded", ostavi i ovo
-        private void Window_Loaded(object sender, RoutedEventArgs e)
-        {
-            if (OpBox.Items.Count > 0 && OpBox.SelectedIndex < 0) OpBox.SelectedIndex = 0;
             LoadAll();
         }
 
         private void LoadAll()
         {
-            // ako želiš da gost vidi samo odobrene hotele,
-            // zameni sledeću liniju sa: HotelsGrid.ItemsSource = _svc.GetAllForGuest(SortStars.IsChecked == true);
             HotelsGrid.ItemsSource = _svc.GetAll(SortStars.IsChecked == true);
         }
-
-        // povezati u XAML-u na SortStars: Checked/Unchecked="SortStars_Click"
-        private void SortStars_Click(object sender, RoutedEventArgs e) => Apply_Click(sender, e);
 
         private void Apply_Click(object sender, RoutedEventArgs e)
         {
             bool sort = SortStars.IsChecked == true;
 
-            // IME
+            // 1) IME (case-insensitive + partial)
             var nameQ = (NameBox.Text ?? "").Trim();
             if (!string.IsNullOrEmpty(nameQ))
             {
@@ -62,7 +47,7 @@ namespace SIMSprojekat
                 return;
             }
 
-            // GODINA
+            // 2) GODINA
             var yearQ = (YearBox.Text ?? "").Trim();
             if (!string.IsNullOrEmpty(yearQ))
             {
@@ -72,7 +57,7 @@ namespace SIMSprojekat
                 return;
             }
 
-            // ZVEZDICE
+            // 3) ZVEZDICE
             var starsQ = (StarsBox.Text ?? "").Trim();
             if (!string.IsNullOrEmpty(starsQ))
             {
@@ -82,10 +67,10 @@ namespace SIMSprojekat
                 return;
             }
 
-            // APARTMANI
+            // 4) APARTMANI (sobe/gosti uz & ili |)
             int? rooms = int.TryParse((RoomsBox.Text ?? "").Trim(), out var rr) ? rr : (int?)null;
             int? guests = int.TryParse((GuestsBox.Text ?? "").Trim(), out var gg) ? gg : (int?)null;
-            var op = ((OpBox.SelectedItem as System.Windows.Controls.ComboBoxItem)?.Content?.ToString() == "|") ? '|' : '&';
+            var op = ((OpBox.SelectedItem as ComboBoxItem)?.Content?.ToString() == "|") ? '|' : '&';
 
             if (rooms != null || guests != null)
             {
@@ -94,21 +79,36 @@ namespace SIMSprojekat
                 return;
             }
 
-            // Ako ništa nije uneseno → prikaži sve
+            // Ako ništa nije uneto → prikaži sve
             LoadAll();
         }
 
         private void NovaRezervacija_Click(object sender, RoutedEventArgs e)
         {
-            if (HotelsGrid.SelectedItem == null)
+            if (_gost == null) { MessageBox.Show("Niste prijavljeni kao gost."); return; }
+
+            if (HotelsGrid.SelectedItem is not Hotel h)
             {
                 MessageBox.Show("Izaberite hotel iz liste.");
                 return;
             }
 
-            // Ovde otvori tvoj prozor za kreiranje rezervacije (hotel je selektovan):
-            // var hotel = (Hotel)HotelsGrid.SelectedItem;
-            // new RezervacijaWindow(hotel, _gost)?.ShowDialog();
+            // >>> TVOJ prozor trenutno traži (Hotel, Korisnik)
+            var rw = new RezervacijaWindow(h, _gost);
+            rw.Owner = this;
+            rw.ShowDialog();
         }
+
+        private void OpenMyReservations_Click(object sender, RoutedEventArgs e)
+        {
+            if (_gost == null) { MessageBox.Show("Niste prijavljeni kao gost."); return; }
+
+            // Obrati pažnju na TAČAN naziv klase ispod:
+            var w = new GuestReservationsWindow(_gost);
+            w.Owner = this;
+            w.ShowDialog();
+        }
+
+        private void Close_Click(object sender, RoutedEventArgs e) => Close();
     }
 }

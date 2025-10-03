@@ -1,7 +1,7 @@
 ﻿<Window x:Class="SIMSprojekat.OwnerWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        Title="Vlasnik" Height="500" Width="800"
+        Title="Vlasnik" Height="500" Width="900"
         WindowStartupLocation="CenterScreen">
 
     <Grid Margin="10">
@@ -10,7 +10,10 @@
             <TabItem Header="Rezervacije">
                 <StackPanel Margin="10">
                     <TextBlock Text="Izaberi hotel:" Margin="0,0,0,5"/>
-                    <ComboBox x:Name="HotelBox" Width="200"
+                    <ComboBox x:Name="HotelBox"
+                              Width="260"
+                              DisplayMemberPath="Naziv"
+                              SelectedValuePath="Sifra"
                               SelectionChanged="HotelBox_SelectionChanged"/>
 
                     <TextBlock Text="Filtriraj po statusu:" Margin="0,10,0,5"/>
@@ -22,15 +25,18 @@
                         <ComboBoxItem Content="Odbijene" Tag="Odbijena"/>
                     </ComboBox>
 
-                    <DataGrid x:Name="RezGrid" AutoGenerateColumns="True"
-                              Height="200" Margin="0,10,0,10"/>
+                    <DataGrid x:Name="RezGrid"
+                              AutoGenerateColumns="True"
+                              IsReadOnly="True"
+                              Height="260"
+                              Margin="0,10,0,10"/>
 
                     <StackPanel Orientation="Horizontal" HorizontalAlignment="Left">
                         <Button x:Name="PotvrdiBtn" Content="Potvrdi rezervaciju"
-                                Width="150" Margin="0,0,10,0"
+                                Width="160" Margin="0,0,10,0"
                                 Click="Potvrdi_Click"/>
                         <Button x:Name="OdbijBtn" Content="Odbij rezervaciju"
-                                Width="150"
+                                Width="160"
                                 Click="Odbij_Click"/>
                     </StackPanel>
                 </StackPanel>
@@ -40,7 +46,7 @@
             <TabItem Header="Hoteli">
                 <StackPanel Margin="10">
                     <TextBlock Text="Filtriraj hotele po statusu:" Margin="0,0,0,5"/>
-                    <ComboBox x:Name="HotelStatusBox" Width="200"
+                    <ComboBox x:Name="HotelStatusBox" Width="220"
                               SelectionChanged="HotelStatusBox_SelectionChanged">
                         <ComboBoxItem Content="Sve" Tag=""/>
                         <ComboBoxItem Content="Na čekanju" Tag="NaCekanju"/>
@@ -48,16 +54,23 @@
                         <ComboBoxItem Content="Odbijeni" Tag="Odbijen"/>
                     </ComboBox>
 
-                    <DataGrid x:Name="HoteliGrid" AutoGenerateColumns="True"
-                              Height="200" Margin="0,10,0,10"/>
+                    <DataGrid x:Name="HoteliGrid"
+                              AutoGenerateColumns="True"
+                              IsReadOnly="True"
+                              Height="260"
+                              Margin="0,10,0,10"/>
 
-                    <StackPanel Orientation="Horizontal" HorizontalAlignment="Left">
+                    <StackPanel Orientation="Horizontal" HorizontalAlignment="Left" >
                         <Button x:Name="PrihvatiHotelBtn" Content="Prihvati hotel"
-                                Width="150" Margin="0,0,10,0"
+                                Width="140" Margin="0,0,10,0"
                                 Click="PrihvatiHotel_Click"/>
                         <Button x:Name="OdbijHotelBtn" Content="Odbij hotel"
-                                Width="150"
+                                Width="140" Margin="0,0,10,0"
                                 Click="OdbijHotel_Click"/>
+                        <!-- NOVO: dodavanje apartmana -->
+                        <Button x:Name="NoviApartmanBtn" Content="Novi apartman"
+                                Width="140"
+                                Click="NoviApartman_Click"/>
                     </StackPanel>
                 </StackPanel>
             </TabItem>

@@ -61,5 +61,32 @@
     "Prezime": "peric",
     "Telefon": "123141685",
     "Tip": 1
+  },
+  {
+    "JMBG": "2222222222222",
+    "Email": "milos@vlasnik.com",
+    "Lozinka": "milos",
+    "Ime": "milos",
+    "Prezime": "zelic",
+    "Telefon": "064564986",
+    "Tip": 2
+  },
+  {
+    "JMBG": "3333333333333",
+    "Email": "milorad@gost.com",
+    "Lozinka": "milorad",
+    "Ime": "Milorad",
+    "Prezime": "Zelic",
+    "Telefon": "5434534653",
+    "Tip": 1
+  },
+  {
+    "JMBG": "5555555555555",
+    "Email": "mica@vlasnik.com",
+    "Lozinka": "mica",
+    "Ime": "Milica",
+    "Prezime": "Zelic",
+    "Telefon": "35345456456",
+    "Tip": 2
   }
 ]
