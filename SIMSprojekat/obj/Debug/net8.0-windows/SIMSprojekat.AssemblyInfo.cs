@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SIMSprojekat")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e2c511ca100c1d26eb14abf92a90ce27a2f3f721")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+eb41d7a44ddd6411bae63863321ff5bc2cc60f1d")]
 [assembly: System.Reflection.AssemblyProductAttribute("SIMSprojekat")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SIMSprojekat")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

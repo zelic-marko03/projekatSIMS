@@ -116,7 +116,7 @@ namespace SIMSprojekat {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/SIMSprojekat;component/guestwindow.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/SIMSprojekat;V1.0.0.0;component/guestwindow.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\GuestWindow.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

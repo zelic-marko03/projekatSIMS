@@ -68,7 +68,7 @@ namespace SIMSprojekat {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/SIMSprojekat;component/guestreservationswindow.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/SIMSprojekat;V1.0.0.0;component/guestreservationswindow.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\GuestReservationsWindow.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);
